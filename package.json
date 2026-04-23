@@ -1,0 +1,12 @@
+{
+  "type": "module",
+  "dependencies": {
+    "@opencode-ai/plugin": "1.14.21"
+  },
+  "devDependencies": {
+    "tsx": "^4.21.0"
+  },
+  "scripts": {
+    "test": "node --import tsx/esm --test tests/safety-guard.test.ts"
+  }
+}
